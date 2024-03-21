@@ -1,0 +1,102 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #e6e3d6;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+    .pagination .btn {
+        margin: 2px;
+    }
+
+.lit {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    font-family: 'Cabin', serif;
+    color: #0e207c;
+    padding-left: 20px;
+}
+
+    .lit h3 {
+        padding-left: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #0e207c;
+    }
+
+.bruh {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-bottom: 20px;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto; /* Remove this line if not necessary */
+    font-weight: 700;
+    font-style: italic;
+    color: #0e207c;
+    line-height: 10;
+}
+
+    .blah {
+    margin-top: 20px;
+    text-align: center;
+}
+
+    .blah .btn {
+        margin: 0 2px;
+    }
+.titulo h1 {
+    text-align: right;
+    padding-left: 20px; /* Adjust the padding as needed */
+    text-transform: uppercase;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    color: #0e207c;
+    letter-spacing: -0.05em;
+}
+.titulo-main h1 {
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    font-style: normal;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  
+}
+
+.navbar.bg-cream {
+    background-color: #e6e3d6;
+    color: #0e207c;
+    
+}
+
+.custom-badge {
+    background-color: #0e207c;
+    color: #ffffff;
+}
